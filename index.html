@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Management Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header -->
+
+    <header>
+
+        <div class="logo">
+            Student Portal
+        </div>
+
+        <h2>Student Management Dashboard</h2>
+
+        <nav>
+
+            <a href="#">Home</a>
+            <a href="#">Students</a>
+            <a href="#">Courses</a>
+            <a href="#">Reports</a>
+            <a href="#">Contact</a>
+
+        </nav>
+
+    </header>
+
+    <!-- Hero -->
+
+    <section class="hero">
+
+        <h1>Welcome to Student Management Dashboard</h1>
+
+        <p>
+            Manage student records, monitor performance,
+            and track course progress.
+        </p>
+
+        <button>View Reports</button>
+
+    </section>
+
+    <!-- Cards -->
+
+    <section class="cards">
+
+        <div class="card">
+            <h3>Total Students</h3>
+            <p id="students"></p>
+        </div>
+
+        <div class="card">
+            <h3>Total Courses</h3>
+            <p>3</p>
+        </div>
+
+        <div class="card">
+            <h3>Average Percentage</h3>
+            <p id="average"></p>
+        </div>
+
+        <div class="card">
+            <h3>Pass Percentage</h3>
+            <p id="pass"></p>
+        </div>
+
+    </section>
+
+    <!-- Table -->
+
+    <section>
+
+        <h2>Student Information</h2>
+
+        <table>
+
+            <thead>
+
+                <tr>
+
+                    <th>Name</th>
+                    <th>Course</th>
+                    <th>Marks</th>
+                    <th>Percentage</th>
+                    <th>Result</th>
+
+                </tr>
+
+            </thead>
+
+            <tbody id="tableBody">
+
+            </tbody>
+
+        </table>
+
+    </section>
+
+    <!-- About -->
+
+    <section class="about">
+
+        <div>
+
+            <h2>Web Development Program</h2>
+
+            <p>
+                This program helps students learn HTML,
+                CSS and JavaScript through practical
+                projects.
+            </p>
+
+        </div>
+
+        <img src="images/program.jpg" alt="Program">
+
+    </section>
+
+    <footer>
+
+        <p>© 2026 Student Dashboard</p>
+
+    </footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
