@@ -1,0 +1,190 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,sans-serif;
+}
+
+body{
+    background:#fff5fa;
+}
+
+/* Navigation Bar */
+
+nav{
+    background:#6a0dad;
+    padding:15px;
+}
+
+nav ul{
+    list-style:none;
+    text-align:center;
+}
+
+nav ul li{
+    display:inline-block;
+    margin:0 15px;
+}
+
+nav ul li a{
+    text-decoration:none;
+    color:white;
+    padding:10px 15px;
+    border-radius:6px;
+    transition:0.3s;
+}
+
+nav ul li a:hover{
+    background:#ff69b4;
+    color:white;
+}
+
+nav ul li a:active{
+    transform:scale(0.95);
+    display:inline-block;
+}
+
+nav ul li a:visited{
+    color:#f8d7ff;
+}
+
+/* Form Section */
+
+.form-section{
+    margin:40px auto;
+    text-align:center;
+}
+
+.form-section h2{
+    color:#6a0dad;
+    margin-bottom:20px;
+}
+
+form{
+    width:350px;
+    margin:auto;
+    background:white;
+    padding:25px;
+    border-radius:15px;
+    box-shadow:0 8px 20px rgba(106,13,173,0.2);
+}
+
+form input{
+    width:100%;
+    padding:10px;
+    margin-bottom:15px;
+    border:1px solid #d8b4fe;
+    border-radius:8px;
+}
+
+form input:focus{
+    border:2px solid #ff69b4;
+    box-shadow:0 0 10px #ffc0cb;
+    outline:none;
+}
+
+form input:disabled{
+    background:#ececec;
+    color:#777;
+}
+
+form button{
+    width:100%;
+    padding:10px;
+    background:#ff69b4;
+    color:white;
+    border:none;
+    border-radius:8px;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+form button:hover{
+    background:#c2185b;
+}
+
+/* Card Grid */
+
+.cards{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:25px;
+    margin:40px;
+}
+
+.card{
+    width:250px;
+    background:white;
+    border-radius:15px;
+    overflow:hidden;
+    text-align:center;
+    box-shadow:0 8px 20px rgba(106,13,173,0.2);
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 15px 30px rgba(106,13,173,0.35);
+}
+
+.card img{
+    width:100%;
+}
+
+.card h3{
+    margin:15px 0;
+    color:#6a0dad;
+}
+
+.card p{
+    padding:0 15px 15px;
+    color:#555;
+}
+
+.card button{
+    margin-bottom:20px;
+    padding:10px 20px;
+    border:none;
+    background:#ff69b4;
+    color:white;
+    border-radius:8px;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+.card button:hover{
+    background:#c2185b;
+}
+
+/* List Section */
+
+.skills{
+    width:350px;
+    margin:40px auto;
+    list-style:none;
+}
+
+.skills li{
+    padding:12px;
+    border:1px solid #d8b4fe;
+    background:white;
+}
+
+.skills li:first-child{
+    background:#ffe066;
+    font-weight:bold;
+}
+
+.skills li:last-child{
+    background:#b8f2b8;
+}
+
+.skills li:nth-child(even){
+    background:#ffe4f1;
+}
+
+.skills li:nth-child(3n){
+    color:#6a0dad;
+    font-weight:bold;
+}

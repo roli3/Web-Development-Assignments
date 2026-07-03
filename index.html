@@ -3,20 +3,114 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Navigation Menu</title>
+    <title>CSS Pseudo Classes Assignment</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
+    <!-- Navigation -->
     <nav>
         <ul>
-            <li><a href="home.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="skills.html">Skills</a></li>
-            <li><a href="projects.html">Projects</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Skills</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Contact</a></li>
         </ul>
     </nav>
+
+    <!-- Form -->
+    <section class="form-section">
+        <h2>Student Registration Form</h2>
+
+        <form>
+            <input type="text" placeholder="Enter Name"><br><br>
+
+            <input type="email" placeholder="Enter Email"><br><br>
+
+            <input type="password" placeholder="Enter Password"><br><br>
+
+            <input type="text" placeholder="Disabled Field" disabled><br><br>
+
+            <button>Submit</button>
+        </form>
+    </section>
+
+    <!-- List -->
+    <section>
+        <h2>Programming Skills</h2>
+
+        <ul class="skills-list">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>React</li>
+            <li>Node.js</li>
+            <li>Express.js</li>
+            <li>MongoDB</li>
+            <li>Git</li>
+            <li>GitHub</li>
+            <li>Bootstrap</li>
+        </ul>
+    </section>
+
+    <!-- Cards -->
+    <section>
+        <h2>Projects</h2>
+
+        <div class="cards">
+
+            <div class="card">
+                <img src="https://via.placeholder.com/300x180" alt="Project">
+                <h3>Portfolio Website</h3>
+                <p>A simple portfolio created using HTML and CSS.</p>
+                <button>View Project</button>
+            </div>
+
+            <div class="card">
+                <img src="https://via.placeholder.com/300x180" alt="Project">
+                <h3>Registration Form</h3>
+                <p>Student Registration Portal using HTML and CSS.</p>
+                <button>View Project</button>
+            </div>
+
+            <div class="card">
+                <img src="https://via.placeholder.com/300x180" alt="Project">
+                <h3>Git Assignment</h3>
+                <p>Git and GitHub practical assignment repository.</p>
+                <button>View Project</button>
+            </div>
+
+        </div>
+    </section>
+
+     <!-- D1: Shadow Variations -->
+
+    <h2>Shadow Variations</h2>
+
+    <div class="shadow-container">
+        <div class="box bottom">Bottom Shadow</div>
+        <div class="box top">Top Shadow</div>
+        <div class="box left">Left Shadow</div>
+        <div class="box blur">Blur Shadow</div>
+        <div class="box inset">Inset Shadow</div>
+    </div>
+
+    <!-- D2: Advanced Shadow UI -->
+
+    <h2>Modern Product Card</h2>
+
+    <div class="product-card">
+        <img src="https://via.placeholder.com/300x200" alt="Product">
+
+        <h3>Wireless Headphones</h3>
+         <p>
+            Enjoy premium sound quality with comfortable and stylish wireless headphones.
+        </p>
+
+        <button>Buy Now</button>
+    </div>
+
 
 </body>
 </html>
